@@ -1,0 +1,22 @@
+# Math Class
+
+In this section, you'll be implementing some basic math functions from scratch in JavaScript.
+
+> **In implementing these functions, do not use any operators other than addition (`+`), negation (`-`), assignment (`=`), or equality/comparison (`<`, `<=`, `>`, `>=`, `==`, `===`), and do not use any functions from `Math`. We're interested in how you construct the algorithms for these functions and re-use your own methods.**
+
+## Basic Math
+
+Create a class called `BasicMath` in `basic-math.js` that implements four methods:
+
+- `add(v1, v2)`, which returns the sum of `v1` and `v2`
+- `subtract(v1, v2)`, which returns the difference between `v1` and `v2`
+- `multiply(v1, v2)`, which returns the product of `v1` and `v2`
+- `divide(v1, v2)`, which returns the integer quotient of `v1` and `v2`
+
+## Advanced Math
+
+Create a class called `AdvancedMath` in `advanced-math.js` that extends `Basic Math` and furthermore implements three additional methods:
+
+- `add(v1[, ...])`, which returns the sum of all its arguments
+- `pow(base, power)`, which returns the result of raising `base` to `power`.
+- `isRightTriangle(a, b, c)`, which returns `true` or `false` based on whether the three sides given are those of a right triangle
